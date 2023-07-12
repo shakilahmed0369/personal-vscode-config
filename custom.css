@@ -1,0 +1,22 @@
+:root {
+  --primaryColor: #675a07d4;
+  --primaryTextColor: #ffffff;
+}
+
+/* Change the background color of the active file in the sidebar */
+.monaco-list-row.focused:not(.highlighted) {
+  background-color: var(--primaryColor) !important;
+}
+
+.monaco-list-row.focused:not(.highlighted) .monaco-icon-label .label-name {
+  color: var(--primaryTextColor) !important;
+}
+
+.part.sidebar.left {
+  border-right: 1px solid var(--primaryColor) !important;
+}
+
+/* Chnage sidebar font size*/
+.monaco-workbench .part > .content {
+  font-size: 15px !important;
+}

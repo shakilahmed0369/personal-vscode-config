@@ -1,0 +1,137 @@
+{
+    "files.autoSave": "afterDelay",
+  
+    /**
+    *---------------------------------------------------------------
+    * Custom Css 
+    *---------------------------------------------------------------
+    **/
+   "vscode_custom_css.imports": [
+      "file:///C:/Users/Akihito/Documents/custom.css"
+    ],
+    "workbench.colorCustomizations": {
+      "tab.activeBackground": "#675a07d4",
+      "list.activeSelectionBackground": "#675a07d4",
+      "tab.activeForeground": "#FFFFFF",
+      "list.activeSelectionForeground": "#FFFFFF",
+    },
+  
+    /**
+    *---------------------------------------------------------------
+    * Editor Configs 
+    *---------------------------------------------------------------
+    **/
+    "workbench.colorTheme": "Andromeda Italic",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "MonoLisa",
+    "editor.fontLigatures": "'calt', 'ss01'",
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 15,
+    "debug.console.fontSize": 15,
+  
+    "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-8.1.10-Win32-vs16-x64\\php.exe",
+    "artisan.php.location": "C:\\laragon\\bin\\php\\php-8.1.10-Win32-vs16-x64\\php.exe",
+  
+    "[*]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    
+    "git.enableSmartCommit": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.tabSize": 4,
+    "git.confirmSync": false,
+    "artisan.maxBuffer": 2048000000000000000,
+    "editor.largeFileOptimizations": false,
+    "git.autofetch": true,
+  
+    "editor.minimap.maxColumn": 80,
+    "editor.wordWrap": "on",
+    "json.format.enable": false,
+    "editor.fontVariations": false,
+    "workbench.startupEditor": "none",
+    "workbench.editor.untitled.hint": "hidden",
+    "git.openRepositoryInParentFolders": "always",
+    "explorer.confirmDragAndDrop": false,
+    "git.ignoreMissingGitWarning": true,
+  
+    /**
+    *---------------------------------------------------------------
+    * Vim Bindings
+    *---------------------------------------------------------------
+    **/
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "k"],
+        "after": ["<Esc>"]
+      },
+      {
+        "before": ["<C-j>"],
+        "after": ["<Esc>"]
+      },
+      {
+        "before": ["<C-k>"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.visualModeKeyBindings": [
+      {
+        "before": [">"],
+        "after": [">", "g", "v"]
+      },
+      {
+        "before": ["<"],
+        "after": ["<", "g", "v"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+        "before": ["<leader>", "w"],
+        "commands": ["workbench.action.splitEditor"]
+      },
+      {
+        "before": ["<leader>", "e"],
+        "commands": ["workbench.action.toggleSidebarVisibility"]
+      },
+      {
+        "before": ["<leader>", "f"],
+        "commands": ["revealInExplorer"]
+      },
+      {
+        "before": ["<leader>", "h"],
+        "after": ["_"]
+      },
+      {
+        "before": ["<leader>", "l"],
+        "after": ["$"]
+      }
+    ],
+    "vim.leader": "<space>",
+  
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false,
+      // VS Code new marker @ next occurence
+      "<C-d>": false,
+      // Copy
+      "<C-c>": false,
+      // Cut
+      "<C-x>": false,
+      // Paste
+      "<C-v>": false,
+      "<C-z>": false,
+      "<C-y>": false,
+      "<C-w>": false
+    },
+    
+  
+  }
+  
